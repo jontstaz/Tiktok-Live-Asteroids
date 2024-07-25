@@ -102,6 +102,7 @@ function HandleExplosion(){
 }
 
 // testing data
+/*
 function runTest(){
   const img = './img/asteroid.png'
   const playerData = [
@@ -119,6 +120,7 @@ function runTest(){
 } 
 
 runTest()
+*/
 
 let fps = 250; //FPS 
 let interval = 1000 / fps;
