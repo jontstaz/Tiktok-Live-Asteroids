@@ -74,7 +74,8 @@ async function start(){
     }
 
     tiktokConnection = new WebcastPushConnection(tiktokUsername, {
-        processInitialData: false
+        processInitialData: false,
+        enableRequestPolling: true
     }
     );
   
